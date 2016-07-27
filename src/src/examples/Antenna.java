@@ -93,6 +93,11 @@ public class Antenna extends javax.swing.JFrame {
         jCheckBox1.setMargin(new java.awt.Insets(0, 0, 0, 0));
 
         jButton6.setText("jButton6");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
 
         org.jdesktop.layout.GroupLayout jPanel1Layout = new org.jdesktop.layout.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -281,6 +286,11 @@ public class Antenna extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        System.out.println("Boton pulsado");
+    }//GEN-LAST:event_jButton6ActionPerformed
     
     /**
      * @param args the command line arguments
